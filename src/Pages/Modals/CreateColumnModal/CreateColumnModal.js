@@ -34,7 +34,7 @@ function CreateColumnModal(props) {
             onChange={(e) => setColName(e.target.value)}
             type="text"
             className={styles.column_names}
-            id="column_names"
+            id="column_name"
           ></input>
         </div>
         <div className={styles.colBtn}>
